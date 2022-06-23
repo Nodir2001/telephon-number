@@ -1,0 +1,25 @@
+{% load static %}
+<html>
+
+<head>
+    <title>Phone input</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="{% static 'js/phoneinput.js' %}">
+    </script>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <!-- <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('input').focus();
+        })
+    </script> -->
+</head>
+
+<body>
+
+    <!-- <div class="placeholder"></div> -->
+        <input type="tel" data-tel-input placeholder="Телефон" maxlength="18" />
+    <!-- <div class="placeholed"></div> -->
+
+</body>
+</html>
